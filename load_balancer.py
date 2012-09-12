@@ -5,10 +5,14 @@ from time import sleep
 from commands import getstatusoutput
 import os
 
+# Edit the values below to fit your needs
 adapterName = 'Conexao de Rede sem Fio'
 SecundaryAdapterName = 'Conexao de Rede sem Fio 2'
-metric=1
 speed_limit = 300
+#
+# Do not edit code below!
+#
+metric=1
 s = os.system('netsh interface ipv4 set interface "%s" metric=%d' %(adapterName, metric))
 print s
 s = os.system('netsh interface ipv4 set interface "%s" metric=%d' %(SecundaryAdapterName, 25))
@@ -29,7 +33,7 @@ while(True):
 	print '%d KB/s' % speed  
 	
 	if speed > speed_limit:
-		print 'Passou limite da rede'
+		print 'Main adapter exceeded limit'
 		if metric == 50:
 			pass
 		else:
@@ -37,7 +41,7 @@ while(True):
 			s = os.system('netsh interface ipv4 set interface "%s" metric=%d' %(adapterName, metric))
 			print s
 	else:
-		print 'Dentro do limite'
+		print 'Main adapter stay within limit'
 		if metric == 1:
 			pass
 		else:
