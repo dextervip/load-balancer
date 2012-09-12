@@ -1,12 +1,11 @@
-load-balancer
-=============
 
 Simple Load Balancer for Windows 7
+==================================
 
-This is a script python which works switching network card metrics, making Windows 7 use two network cards at same time.
+This is a script python which works switching network card metrics, making Windows 7 use two network adapters at same time.
 
 
-Usage
+#Usage
 
 Open using a text editor load_balancer.py file and change values of adapterName, SecundaryAdapterName and speed_limit. 
 
@@ -18,6 +17,6 @@ After editing, That's it, run and enjoy!
   
     python load_balancer.py
   
-Requirements
+#Requirements
 
   - Python 2.6+ Installed 
