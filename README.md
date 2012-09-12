@@ -1,4 +1,3 @@
-
 Simple Load Balancer for Windows 7
 ==================================
 
@@ -9,9 +8,11 @@ This is a script python which works switching network card metrics, making Windo
 
 Open using a text editor load_balancer.py file and change values of adapterName, SecundaryAdapterName and speed_limit. 
 
- - adapterName - This is the name of main network adapter
- - SecundaryAdapterName - This is the name of secundary network adapter
- - speed_limit - This is the speed limit of main network adapter
+ - adapterName - This is the name of main network adapter Ex.: Wireless Network Connection
+ - SecundaryAdapterName - This is the name of secundary network adapter Ex.: Wireless Network Connection 2
+ - speed_limit - This is the speed limit of main network adapter in KB/s
+          
+Adapter names can be seen in Control Panel > Network and Internet 
 
 After editing, That's it, run and enjoy!
   
