@@ -17,6 +17,10 @@ Adapter names can be seen in Control Panel > Network and Internet
 After editing, That's it, run and enjoy!
   
     python load_balancer.py
+    
+ Load Balancer in Action
+
+![Statistics usage sample](http://img28.imageshack.us/img28/259/sampleloadbalancer.png)
   
 #Requirements
 
