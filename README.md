@@ -25,6 +25,7 @@ After editing, That's it, run and enjoy!
 #Requirements
 
   - Python 2.6+ Installed 
+  - run as administrator
   
 #Limitations
 	
