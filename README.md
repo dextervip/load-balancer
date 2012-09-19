@@ -25,7 +25,6 @@ After editing, That's it, run and enjoy!
 #Requirements
 
   - Python 2.6+ Installed 
-  - requires psutils 0.5.1  (won't work with later versions) => https://code.google.com/p/psutil/downloads/detail?name=psutil-0.5.1.win32-py2.6.exe&can=1&q=
   - run as administrator
   
 #Limitations
