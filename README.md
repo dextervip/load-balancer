@@ -33,8 +33,7 @@ It only works for two network adapters;
 
 #License
 
-Simple Load Balancer for Windows 7
-Copyright (C) 2012  Rafael Amorim 
+Simple Load Balancer for Windows 7 2012  Rafael Amorim 
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
