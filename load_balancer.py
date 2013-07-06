@@ -6,8 +6,8 @@ from commands import getstatusoutput
 import os
 
 # Edit the values below to fit your needs
-adapterName = 'Conexao de Rede sem Fio'
-SecundaryAdapterName = 'Conexao de Rede sem Fio 2'
+adapterName = 'Broadband Connection'
+SecundaryAdapterName = 'Local Area Connection'
 speed_limit = 300
 #
 # Do not edit code below!
